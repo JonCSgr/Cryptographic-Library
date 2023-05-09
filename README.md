@@ -1,24 +1,23 @@
 # Cryptographic-Library
-Includes five different cryptographic ciphers
+This repository contains a cryptographic library that includes five different cryptographic ciphers. With this library, you can easily encrypt and decrypt messages using various ciphers.
 
-To run it 
-In test.txt you will write your plaintext
-In key.txt you will write your key for playfair
+## Usage
+1. Write your plaintext in the `test.txt` file.
+2. Write your key for the Playfair cipher in the `key.txt` file.
+3. In the terminal, run the command `make run` and then execute the program using `./run.out`.
+4. Follow the instructions in the terminal to encrypt or decrypt your message.
 
-Afterwards in the terminal hit the command "make run" and run it using ./run.out
-Follow the instructions in terminal afterwards
+If you want to clean the files, use the command `make clean`.
 
-If you wanna clean the files use "make clean"
+## Example
+1. Choose option 1 in the terminal for the first encryption algorithm.
+2. Choose N=500.
+3. The encryption is successful and there is an output file called `encryptedtext.txt` with the encrypted message.
 
-E.G
-I choose 1 in terminal for 1st encryption algorithm
-I choose N=500
-Encrypt has been succesfull and there is an output called "encryptedtext.txt" with the encrypted messages
+To decrypt the message, follow the same process in reverse:
+1. Run `./run.out`.
+2. Choose option 2, which is the decrypt option for the first cipher.
+3. Choose N=500 again since that's how you encrypted it in step 1.
+4. There is now a file called `decryptedtxt.txt` with your decrypted message.
 
-To decrypt follow the same process in reverse
-./run.out
-Choose 2 which is the decrypt option for the first cipher
-Choose N=500 again since that's how you encrypt it in step 1
-There is now a file called decryptedtxt.txt with your decrypted message.
-
-There are more encrypted methods, just follow the instructions
+There are more encryption methods available - just follow the instructions in the terminal.
